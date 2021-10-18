@@ -9,11 +9,16 @@ color: white;
 h2{
 font: bold;
 text-align: center;
-padding: 50px 0px 20px 0px;
+padding: 50px 0px 10px 0px;
 }
 
 h4{
 text-align: center;
+padding: 20px;
+}
+
+h5{
+padding: 20px;
 }
 
 .badge-description{
@@ -57,6 +62,7 @@ display: flex;
 flex-direction: row;
 justify-content: center;
 text-align: left;
+width: 100%;
 }
 
 .coach{
@@ -67,14 +73,33 @@ width: 100%;
 }
 
 .card-body{
-width: 350px;
-height: 600px;
+width: 500px;
+height: 400px;
 }
 
-.schedule-button{
-display: flex;
-align-content: flex-end;
+.card-copy{
+align-items: center;
 justify-content: center;
+}
+
+.coach-image{
+display: flex;
+justify-content: center;
+}
+
+.heroCTA{
+display: flex;
+flex-direction: row;
+}
+
+.heroCTA-switch{
+padding:10px;
+margin-left: auto;
+}
+
+.heroCTA-continue{
+padding:10px;
+margin-right: auto;
 }
 
 .btn{
