@@ -107,12 +107,26 @@ background-color: #CC006E;
 border: #CC006E;
 align-items:  center;
 font-size: 16px;
+width: 200px;
 }
 
 .btn:hover{
 background-color:lightpink;
 border: #CC006E;
 color: #CC006E;
+}
+
+#alt-btn-style{
+border: 2px #CC006E;
+background-color:#11349B;
+color: white;
+font-size: 16px;
+cursor: pointer;
+}
+
+#alt-btn-style:hover{
+background-color: #8195CD;
+color: #11349B;
 }
 
 .footer{
